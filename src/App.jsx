@@ -17,9 +17,9 @@ export default function App() {
       "--brightness",
       filter.brightness
     );
-    document.documentElement.style.setProperty("--brightness", filter.contrast);
+    document.documentElement.style.setProperty("--contrast", filter.contrast);
     document.documentElement.style.setProperty(
-      "--brightness",
+      "--saturation",
       filter.saturation
     );
   }, [filter]);
